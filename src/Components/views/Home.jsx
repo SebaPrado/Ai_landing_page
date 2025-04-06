@@ -44,36 +44,6 @@ function FramerMotion() {
 
   const animatedDivRef = useRef(null);
 
-  //   useEffect(() => {
-  //     let timer;
-
-  //     const typeEffect = () => {
-  //       const currentWord = words[wordIndex];
-
-  //       if (!isDeleting) {
-  //         if (displayedWord.length < currentWord.length) {
-  //           setDisplayedWord(currentWord.slice(0, displayedWord.length + 1));
-  //           timer = setTimeout(typeEffect, 250);
-  //         } else {
-  //           timer = setTimeout(() => setIsDeleting(true), 9000);
-  //         }
-  //       } else {
-  //         if (displayedWord.length > 0) {
-  //           setDisplayedWord(currentWord.slice(0, displayedWord.length - 1));
-  //           timer = setTimeout(typeEffect, 50);
-  //         } else {
-  //           setIsDeleting(false);
-  //           setWordIndex((prev) => (prev + 1) % words.length);
-  //           timer = setTimeout(typeEffect, 50);
-  //         }
-  //       }
-  //     };
-
-  //     timer = setTimeout(typeEffect, 100);
-
-  //     return () => clearTimeout(timer);
-  //   }, [displayedWord, isDeleting, wordIndex, words]);
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
