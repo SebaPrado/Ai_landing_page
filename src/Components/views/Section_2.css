@@ -1,0 +1,89 @@
+.padre_sliders {
+    margin-right: 30px;
+  rotate: -3deg;
+  /* background-color: #001a27; */
+  padding-top: 14rem;
+  margin-top: 11rem;
+  padding-bottom: 12rem;
+  border-radius: 20px;
+}
+
+.iconsSection {
+  position: relative;
+  height: 10rem;
+  /* background: linear-gradient(to right, #233b536d, #001a27ce, #001a27); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #001a27;
+  margin-top: 5rem;
+  z-index: 20;
+  overflow: hidden; 
+  border: none;
+}
+.iconsSection2 {
+  position: relative;
+  height: 10rem;
+  /* background: linear-gradient(to left, #233b536d, #001a27d8, #001a27); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#001a27;
+  margin-top: 5rem;
+  z-index: 20;
+  overflow: hidden; /* Add this to prevent horizontal scroll */
+}
+
+.slider-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.slider-icons {
+  display: flex;
+  animation: slide 40s linear infinite;
+  gap: 100px;
+  padding: 18px 0;
+}
+.slider-icons2 {
+  display: flex;
+  animation: slide2 40s linear infinite;
+  gap: 100px;
+  padding: 18px 0;
+}
+
+.slider-icons:hover {
+  animation-play-state: paused;
+}
+
+.slider-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+.icon {
+  font-size: 2rem;
+}
+.iconName {
+  margin-top: 9px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}

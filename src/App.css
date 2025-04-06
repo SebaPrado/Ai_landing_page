@@ -1,0 +1,20 @@
+/* Estilos para el AppBar */
+.custom-app-bar {
+  box-shadow: none;
+  border-radius: 9999px;
+}
+
+.loading {
+  color: rgba(255, 255, 255, 0.918);
+  font-weight: 200;
+  animation: loadingAnimation 1s infinite alternate;
+}
+
+@keyframes loadingAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.4;
+  }
+}

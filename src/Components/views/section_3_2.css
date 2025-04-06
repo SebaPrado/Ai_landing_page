@@ -1,0 +1,27 @@
+.sectionAI{
+    background-color: #0a001b;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+    border: 10px solid transparent; 
+    border-radius: 0 100px  0 100px  ; 
+   
+}
+.aiHeader{
+    margin-bottom: 55px ;
+    margin-top: 35px;
+    font-size: 49px;
+    color: white;
+    /* background-color: aquamarine; */
+}
+.expertiseFlexItems_ai li{
+    color: white;
+}
+
+.bkc2_subtitle {
+    background: linear-gradient(
+      to right,
+      #100114ec 0%,
+      #001415ec 60%,
+      #d9d9d9 100%
+    );
+  }
