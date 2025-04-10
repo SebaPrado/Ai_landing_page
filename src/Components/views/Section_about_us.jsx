@@ -29,7 +29,7 @@ const Section_about_us = () => {
   }, []);
   return (
     <div className="aboutUs_div_padre">
-      <div className="textPersonalSection">
+      <div className="aboutUs_div_hijo">
         <div>
           <img
             ref={animatedDivRef}
@@ -39,7 +39,7 @@ const Section_about_us = () => {
           />
         </div>
         <div className="   ">
-        <h5> Sebastian Prado</h5>
+          <h5> Sebastian Prado</h5>
 
           <p className="helloText ">
             Sebastian es .. Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -47,7 +47,6 @@ const Section_about_us = () => {
             iusto, maiores voluptatibus dignissimos ipsa nesciunt nostrum ipsum
             nemo a quasi incidunt saepe. Numquam, suscipit?
           </p>
-          
         </div>
 
         {/* <div>
@@ -61,7 +60,7 @@ const Section_about_us = () => {
           </a>
         </div> */}
       </div>
-      <div className="textPersonalSection">
+      <div className="aboutUs_div_hijo">
         <div>
           <img
             ref={animatedDivRef}
@@ -71,11 +70,11 @@ const Section_about_us = () => {
           />
         </div>
         {/* <div className="  scrollAnimation "> */}
-            <div>
-            <h5>Dario Elias</h5>
-        <p className="helloText ">
-            Daro es .. Lorem ipsum, dolor sit amet consectetur adipisicing
-            elit. Consequuntur laboriosam beatae nam qui reprehenderit, suscipit
+        <div>
+          <h5>Dario Elias</h5>
+          <p className="helloText ">
+            Daro es .. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consequuntur laboriosam beatae nam qui reprehenderit, suscipit
             iusto, maiores voluptatibus dignissimos ipsa nesciunt nostrum ipsum
             nemo a quasi incidunt saepe. Numquam, suscipit?
           </p>
