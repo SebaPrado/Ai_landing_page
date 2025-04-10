@@ -113,7 +113,7 @@ function FramerMotion() {
 
       {/* ========================   About myself      ===========================  */}
 
-      <section className="sectionAgr ">
+      <section className="sectionAgr " id="about_us">
       <div className="containerLarge">
         <Section_3_1_farming />
         </div>

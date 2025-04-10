@@ -40,26 +40,26 @@ const Section_1 = () => {
         </div>
         <div className="  scrollAnimation ">
           <p className="helloText ">
-            Hey ! I'm Sebastian, a full stack developer specializing in{" "}
+          Hey! We're a development duo specializing in{" "}
             <strong>Open AI </strong>, <strong>Node.js </strong> and
             <strong> React </strong>. I develop both <strong>Websites   </strong> and<strong> Agents AI </strong> for
-            businesses and individuals. I'm an enthusiast of working for
-            <strong> objectives</strong> instead of rate, joining goals and <strong>earning trust</strong> . 
-            Let's bring your vision to life!
+            businesses and individuals.We're enthusiasts of working toward 
+            <strong> objectives</strong> instead of hourly rates, joining goals and earning trust <strong> through results </strong> . 
+            Let's bring your idea to life!
           </p>
-          {/* <p className="letsTalk  ">Let's Talk...</p> */}
+          {/* <p className="letsTalk  ">Let's Talk button...</p> */}
         </div>
 
-        {/* <div>
+        <div>
           <a
             href="mailto:sebastian.pradomelesi@gmail.com "
             className="email-button email-link "
             onMouseEnter={(e) => (e.target.style.color = "orange")}
             onMouseLeave={(e) => (e.target.style.color = "white")}
           >
-            sebastian.pradomelesi@gmail.com
+            contact us
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
   );

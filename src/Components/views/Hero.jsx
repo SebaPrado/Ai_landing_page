@@ -30,25 +30,14 @@ const Hero = () => {
     };
   }, []);
   return (
-    // <div className="hero">
-    //   <div className="presentacion">
-    //     <div className="mi_nombre">
-    //       <div className="letters_s"> I am</div>
-    //       <div className="letters">Sebastian Prado.</div>
-    //     </div>
-    //   </div>
-    //   <div className="hablity_agriculturalengineer skill"> Agricultural engineer</div>
-    //   <div className="hablity_ai_agent_creator skill"> Ai agent creator</div>
-    //   <div className="hablity_web_developer skill"> Fullstack web developer</div>
-    // </div>
+   
     <div className="heroContainer">
       <div className="heroflex1">
         <div className="heroFlexText">
           <h2>Welcome</h2>
           <p>
-            I'm Sebastian, a fullstack developer specializing in AI agents with
-            OpenAI and Node.js. I create solutions using the MERN stack,
-            focusing on Node.js and React, to develop and integrate AI assistants.
+            We're Sebastian and Dario, two fullstack developer specializing in AI agents with
+            OpenAI, Node.js and lowcode softwares. Together, we create AI assistants and Softwares empowered by Ai.
           </p>
         </div>
         <div>
