@@ -16,7 +16,7 @@ const Section_3_1_farming = () => {
     <div className="expertiseFlexContainer ">
       <div className="agrHeader">
         <div className="titles">
-          <div>About myself</div>
+          <div>About us</div>
         </div>
       </div>
 

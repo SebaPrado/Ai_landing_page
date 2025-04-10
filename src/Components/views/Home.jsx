@@ -89,17 +89,17 @@ function FramerMotion() {
       </section>
 
        {/* ========================   technologies icons  slider      ===========================  */}
-       <section>
+       {/* <section>
         <Section_2 />
-      </section>
+      </section> */}
 
       {/* ========================   Fullstack developer    ===========================  */}
 
-      <section className="sectionDev ">
+      {/* <section className="sectionDev ">
         <div className="containerLarge">
          <Section_3_3_dev />
         </div>
-      </section>
+      </section> */}
 
       {/* ========================   Section 4_SLIDER      ===========================  */}
 
