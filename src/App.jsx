@@ -29,11 +29,6 @@ const router = createBrowserRouter([
         path: "home0",
         element: <Home0 />,
       },
-
-      {
-        path: "fm",
-        element: <FramerMotion />,
-      },
       {
         path: "fm2",
         element: <FramerMotion2 />,
