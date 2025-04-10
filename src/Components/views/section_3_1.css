@@ -193,7 +193,7 @@ color:#ffffff;
 }
 .cursor-pointer {
   cursor: pointer;
-  z-index: 10;
+  z-index: 0;
 }
 
 /*   -----------------------------      Responsividad        -------------------------------- */

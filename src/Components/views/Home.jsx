@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-
 import Hero from "./Hero.jsx";
 import Section_1 from "./Section_1.jsx";
 import Section_about_us from "./Section_about_us.jsx";
@@ -8,37 +7,8 @@ import Section_4 from "./Section_4.jsx";
 
 
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-// const cardVariants = (index) => ({
-//   offscreen: {
-//     y: 300,
-//   },
-//   onscreen: {
-//     y: 50,
-//     rotate: -7,
-//     transition: {
-//       type: "spring",
-//       bounce: 0.4,
-//       duration: 1.2,
-//       delay: index <= 3 ? index * 0.4 : 0,
-//     },
-//   },
-// });
-
-// const hue = (h) => `hsl(${h}, 50%, 20%)`;
-
 
 function FramerMotion() {
-  //   const [displayedWord, setDisplayedWord] = useState("");
-  //   const [isDeleting, setIsDeleting] = useState(false);
-//   const words = ["    with a creative twist... ", " with a designing mind"];
-//   const [wordIndex, setWordIndex] = useState(0);
-//   const sectionRef = useRef(null);
-
-  const food = [
-    ["public/logoseba.png", 30, 40],
-    ["public/fakeflix.jpeg", 230, 230],
-    ["public/alusur.jpeg", 200, 220],
-  ];
 
   const animatedDivRef = useRef(null);
 
@@ -90,15 +60,6 @@ function FramerMotion() {
        {/* <section>
         <Section_2 />
       </section> */}
-
-      {/* ========================   Fullstack developer    ===========================  */}
-
-      {/* <section className="sectionDev ">
-        <div className="containerLarge">
-         <Section_3_3_dev />
-        </div>
-      </section> */}
-
       {/* ========================   Section 4_SLIDER      ===========================  */}
 
       <section className="section_projects " id="projects">
@@ -106,8 +67,6 @@ function FramerMotion() {
           <Section_4 />
         </div>
       </section>
-
-     
 
       {/* ========================   About myself      ===========================  */}
 
@@ -117,11 +76,6 @@ function FramerMotion() {
         </div>
 
       </section>
-
-      {/* ========================   Empty      ===========================  */}
-      {/* <section>
-        <Section_5 />
-      </section> */}
 
       {/* =====================        LETS TALK         ======================== */}
 
@@ -150,7 +104,7 @@ function FramerMotion() {
         <footer className="footer ">
           <div className="footer-content">
             <p>&copy; 2024 Sebastian Prado.</p>
-            <div className="social-icons">
+            {/* <div className="social-icons">
               <a
                 href="https://github.com/SebaPrado"
                 target="_blank"
@@ -172,7 +126,7 @@ function FramerMotion() {
               >
                 <FaInstagram />
               </a>
-            </div>
+            </div> */}
           </div>
         </footer>
       </section>
