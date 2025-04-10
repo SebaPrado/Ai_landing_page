@@ -48,20 +48,23 @@
 
   @media (max-width: 1200px) {
     .aboutUs_div_hijo {
-        width: 45%;
         text-align: center;
+        width: 50% !important;
         /* background-color: rgb(65, 250, 65); */
+
       }
   }
   
-  @media (max-width: 550px) {
+  @media (max-width: 650px) {
     .aboutUs_div_padre {
       flex-direction: column; 
       align-items: center;
+
     }
     .aboutUs_div_hijo {
-      width: 100%;
-      /* background-color: antiquewhite; */
+      width: 100% !important;
+      padding: 0;
+      /* background-color: rgb(178, 212, 53); */
     }
   }
   
