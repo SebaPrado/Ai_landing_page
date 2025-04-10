@@ -34,7 +34,7 @@ const Section_1 = () => {
           <img
             ref={animatedDivRef}
             className="profilePicture"
-            src="/daro.jpg"
+            src="/daro2.png"
             alt=""
           />
            <img
@@ -46,10 +46,9 @@ const Section_1 = () => {
         </div>
         <div className="  scrollAnimation ">
           <p className="helloText ">
-          Hey! We're a development duo specializing in{" "}
-            <strong>Open AI </strong>, <strong>Node.js </strong> and
-            <strong> React </strong>. I develop both <strong>Websites   </strong> and<strong> Agents AI </strong> for
-            businesses and individuals.We're enthusiasts of working toward 
+          Hey! We're a development duo specializing in building{" "}
+            <strong>AI agents </strong>conected to whatsapp, Instagram, websites and <strong>Softwares </strong> built with <strong> Node.js </strong>. We develop both <strong>Softwares   </strong> and<strong> Agents AI </strong> for
+            businesses and individuals. We're enthusiasts of working toward 
             <strong> objectives</strong> instead of hourly rates, joining goals and earning trust <strong> through results </strong> . 
             Let's bring your idea to life!
           </p>

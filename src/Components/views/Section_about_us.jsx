@@ -67,7 +67,7 @@ const Section_about_us = () => {
           <img
             ref={animatedDivRef}
             className="profilePicture "
-            src="/daro.jpg"
+            src="/daro2.png"
             alt=""
           />
         </div>

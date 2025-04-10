@@ -174,8 +174,8 @@ const Section_3_2_ai = () => {
       {/* ---------------------     4  Social Media     ------------------------- */}
       <div className="expertiseFlexItems_ai">
         <div
-          className="h4_boton bkc2_subtitle rotacion list_title_div cursor-pointer"
-          onClick={() => toggleSection("socialIntegration")}
+          className="h4_boton bkc2_subtitle rotacion list_title_div cursor-pointer bckimg ai1"
+          onClick={() => toggleSection("aiTraining")}
         >
           <div className="uno">
             <h4>Social Platform APIs Integration</h4>
