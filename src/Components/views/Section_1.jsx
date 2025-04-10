@@ -33,7 +33,13 @@ const Section_1 = () => {
         <div>
           <img
             ref={animatedDivRef}
-            className="profilePicture hidden"
+            className="profilePicture"
+            src="/daro.jpg"
+            alt=""
+          />
+           <img
+            ref={animatedDivRef}
+            className="profilePicture "
             src="/fotoperfil.png"
             alt=""
           />

@@ -5,28 +5,26 @@ import Section_1 from "./Section_1.jsx";
 import Section_about_us from "./Section_about_us.jsx";
 import Section_3_2_ai from "./Section_3_2_ai.jsx";
 import Section_4 from "./Section_4.jsx";
-// import Section_3_3_dev from "./Section_3_3_dev.jsx";
-// import Section_2 from "./Section_2.jsx";
-// import Section_5 from "./Section_5.jsx";
+
 
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-const cardVariants = (index) => ({
-  offscreen: {
-    y: 300,
-  },
-  onscreen: {
-    y: 50,
-    rotate: -7,
-    transition: {
-      type: "spring",
-      bounce: 0.4,
-      duration: 1.2,
-      delay: index <= 3 ? index * 0.4 : 0,
-    },
-  },
-});
+// const cardVariants = (index) => ({
+//   offscreen: {
+//     y: 300,
+//   },
+//   onscreen: {
+//     y: 50,
+//     rotate: -7,
+//     transition: {
+//       type: "spring",
+//       bounce: 0.4,
+//       duration: 1.2,
+//       delay: index <= 3 ? index * 0.4 : 0,
+//     },
+//   },
+// });
 
-const hue = (h) => `hsl(${h}, 50%, 20%)`;
+// const hue = (h) => `hsl(${h}, 50%, 20%)`;
 
 
 function FramerMotion() {
@@ -139,7 +137,7 @@ function FramerMotion() {
                 onMouseEnter={(e) => (e.target.style.color = "orange")}
                 onMouseLeave={(e) => (e.target.style.color = "white")}
               >
-                sebastian.pradomelesi@gmail.com
+               contact us
               </a>
             </p>
           </div>

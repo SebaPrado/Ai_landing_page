@@ -24,28 +24,30 @@
 /* ------------------------         About us  >>      ------------------------------- */
 
 .aboutUs_div_padre {
-    margin-top: 20rem;
     margin-bottom: 20rem;
     height: auto;
     display: flex;
     flex-direction: row;
     gap: 30px;
     justify-content: center;
-    background-color: antiquewhite;
-    flex-wrap: wrap; /* Esto permite que los hijos bajen si no hay espacio */
+    /* background-color: antiquewhite; */
+    flex-wrap: wrap; 
   }
   
   .aboutUs_div_hijo {
     width: 30%;
     text-align: center;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+  }
+  .aboutUs_div_hijo p {
+    font-size: 14px !important;
   }
 
   @media (max-width: 1200px) {
     .aboutUs_div_hijo {
         width: 45%;
         text-align: center;
-        background-color: rgb(65, 250, 65);
+        /* background-color: rgb(65, 250, 65); */
       }
   }
   
@@ -56,7 +58,7 @@
     }
     .aboutUs_div_hijo {
       width: 100%;
-      background-color: antiquewhite;
+      /* background-color: antiquewhite; */
     }
   }
   
@@ -70,7 +72,10 @@
   width: 100px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255);
-  opacity: 0.9;
+  opacity: 1;
+  margin-left: 2px ;
+  margin-right: 2px ;
+
 }
 
 .hidden {

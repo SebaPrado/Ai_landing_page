@@ -40,9 +40,11 @@ const Section_about_us = () => {
         </div>
         <div className="   ">
           <h5> Sebastian Prado</h5>
+          <h6>Melbourne Bicycle rider</h6>
+
 
           <p className="helloText ">
-            Sebastian es .. Lorem ipsum, dolor sit amet consectetur adipisicing
+            Seba es .. Lorem ipsum, dolor sit amet consectetur adipisicing
             elit. Consequuntur laboriosam beatae nam qui reprehenderit, suscipit
             iusto, maiores voluptatibus dignissimos ipsa nesciunt nostrum ipsum
             nemo a quasi incidunt saepe. Numquam, suscipit?
@@ -65,13 +67,14 @@ const Section_about_us = () => {
           <img
             ref={animatedDivRef}
             className="profilePicture "
-            src="/fotoperfil.png"
+            src="/daro.jpg"
             alt=""
           />
         </div>
         {/* <div className="  scrollAnimation "> */}
         <div>
           <h5>Dario Elias</h5>
+          <h6>Indian languaje expert</h6>
           <p className="helloText ">
             Daro es .. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Consequuntur laboriosam beatae nam qui reprehenderit, suscipit

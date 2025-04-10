@@ -15,7 +15,7 @@ const Section_4 = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/juegos.png" alt="Juegos" />
+            <img src="/ai3.jpg" alt="Juegos" />
           </a>
         </div>
         <div className="sliderDiv">
@@ -24,7 +24,7 @@ const Section_4 = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="projectImage" src="/alusur.jpg" alt="Alusur" />
+            <img className="projectImage" src="/ai4.jpg" alt="Alusur" />
           </a>
         </div>
         <div className="sliderDiv">
@@ -33,7 +33,7 @@ const Section_4 = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/equal2.png" alt="E-commerce" />
+            <img src="/ai7.jpg" alt="E-commerce" />
           </a>
         </div>
         <div className="sliderDiv">
@@ -42,7 +42,7 @@ const Section_4 = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/dashboard.jpg" alt="E-commerce dashboard" />
+            <img src="/ai2.jpg" alt="E-commerce dashboard" />
           </a>
         </div>
         <div className="sliderDiv">
@@ -51,7 +51,7 @@ const Section_4 = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/thewildrobot.png" alt="Fakeflix" />
+            <img src="/ai9.jpg" alt="Fakeflix" />
           </a>
         </div>
       </div>
