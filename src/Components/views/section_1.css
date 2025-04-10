@@ -14,12 +14,25 @@
   height: auto;
   display: flex;
   justify-content: center;
+  background-color: antiquewhite;
+}
+
+.aboutUs_div_padre{
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    position: relative;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: antiquewhite;
 }
 
 .textPersonalSection {
   width: 80%;
   text-align: center;
   /* color: var(--white); */
+  background-color: aquamarine;
 }
 
 .profilePicture {

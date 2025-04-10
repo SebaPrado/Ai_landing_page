@@ -13,7 +13,7 @@ function Layout() {
     const timer = setTimeout(() => {
       setFadeOut(true);
       setTimeout(() => setLoading(false), 1500);
-    }, 3000);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 

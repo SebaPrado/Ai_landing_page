@@ -14,7 +14,6 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import resumePDF from "../../CV_Sebastian_Prado.pdf"
 
 
 const theme = createTheme({

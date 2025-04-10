@@ -1,13 +1,13 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 
 import Hero from "./Hero.jsx";
 import Section_1 from "./Section_1.jsx";
-import Section_2 from "./Section_2.jsx";
 import Section_about_us from "./Section_about_us.jsx";
 import Section_3_2_ai from "./Section_3_2_ai.jsx";
-import Section_3_3_dev from "./Section_3_3_dev.jsx";
 import Section_4 from "./Section_4.jsx";
-import Section_5 from "./Section_5.jsx";
+// import Section_3_3_dev from "./Section_3_3_dev.jsx";
+// import Section_2 from "./Section_2.jsx";
+// import Section_5 from "./Section_5.jsx";
 
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 const cardVariants = (index) => ({
@@ -32,9 +32,9 @@ const hue = (h) => `hsl(${h}, 50%, 20%)`;
 function FramerMotion() {
   //   const [displayedWord, setDisplayedWord] = useState("");
   //   const [isDeleting, setIsDeleting] = useState(false);
-  const words = ["    with a creative twist... ", " with a designing mind"];
-  const [wordIndex, setWordIndex] = useState(0);
-  const sectionRef = useRef(null);
+//   const words = ["    with a creative twist... ", " with a designing mind"];
+//   const [wordIndex, setWordIndex] = useState(0);
+//   const sectionRef = useRef(null);
 
   const food = [
     ["public/logoseba.png", 30, 40],

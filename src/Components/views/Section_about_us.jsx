@@ -28,29 +28,29 @@ const Section_about_us = () => {
     };
   }, []);
   return (
-    <div className="personalPresentation">
+    <div className="aboutUs_div_padre">
       <div className="textPersonalSection">
         <div>
           <img
             ref={animatedDivRef}
-            className="profilePicture hidden"
+            className="profilePicture "
             src="/fotoperfil.png"
             alt=""
           />
         </div>
-        <div className="  scrollAnimation ">
+        <div className="   ">
+        <h5> Sebastian Prado</h5>
+
           <p className="helloText ">
-          Hey! We're a development duo specializing in{" "}
-            <strong>Open AI </strong>, <strong>Node.js </strong> and
-            <strong> React </strong>. I develop both <strong>Websites   </strong> and<strong> Agents AI </strong> for
-            businesses and individuals.We're enthusiasts of working toward 
-            <strong> objectives</strong> instead of hourly rates, joining goals and earning trust <strong> through results </strong> . 
-            Let's bring your idea to life!
+            Sebastian es .. Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Consequuntur laboriosam beatae nam qui reprehenderit, suscipit
+            iusto, maiores voluptatibus dignissimos ipsa nesciunt nostrum ipsum
+            nemo a quasi incidunt saepe. Numquam, suscipit?
           </p>
-          {/* <p className="letsTalk  ">Let's Talk button...</p> */}
+          
         </div>
 
-        <div>
+        {/* <div>
           <a
             href="mailto:sebastian.pradomelesi@gmail.com "
             className="email-button email-link "
@@ -59,7 +59,38 @@ const Section_about_us = () => {
           >
             contact us
           </a>
+        </div> */}
+      </div>
+      <div className="textPersonalSection">
+        <div>
+          <img
+            ref={animatedDivRef}
+            className="profilePicture "
+            src="/fotoperfil.png"
+            alt=""
+          />
         </div>
+        {/* <div className="  scrollAnimation "> */}
+            <div>
+            <h5>Dario Elias</h5>
+        <p className="helloText ">
+            Daro es .. Lorem ipsum, dolor sit amet consectetur adipisicing
+            elit. Consequuntur laboriosam beatae nam qui reprehenderit, suscipit
+            iusto, maiores voluptatibus dignissimos ipsa nesciunt nostrum ipsum
+            nemo a quasi incidunt saepe. Numquam, suscipit?
+          </p>
+        </div>
+
+        {/* <div>
+          <a
+            href="mailto:sebastian.pradomelesi@gmail.com "
+            className="email-button email-link "
+            onMouseEnter={(e) => (e.target.style.color = "orange")}
+            onMouseLeave={(e) => (e.target.style.color = "white")}
+          >
+            contact us
+          </a>
+        </div> */}
       </div>
     </div>
   );
