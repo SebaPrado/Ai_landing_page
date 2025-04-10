@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Hero from "./Hero.jsx";
 import Section_1 from "./Section_1.jsx";
 import Section_2 from "./Section_2.jsx";
-import Section_3_1_farming from "./Section_3_1_farming.jsx";
+import Section_about_us from "./Section_about_us.jsx";
 import Section_3_2_ai from "./Section_3_2_ai.jsx";
 import Section_3_3_dev from "./Section_3_3_dev.jsx";
 import Section_4 from "./Section_4.jsx";
@@ -113,9 +113,9 @@ function FramerMotion() {
 
       {/* ========================   About myself      ===========================  */}
 
-      <section className="sectionAgr " id="about_us">
+      <section className="Section1Home1 " id="about_us">
       <div className="containerLarge">
-        <Section_3_1_farming />
+        <Section_about_us />
         </div>
 
       </section>
