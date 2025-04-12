@@ -44,15 +44,14 @@ const Hero = () => {
     <div className="heroContainer">
       <div className="heroflex1">
         <div className="heroFlexText">
-          <h2>Welcome</h2>
+          <h2>Automate Smarter. </h2>
+          <h2>Scale Faster.</h2>
           <p>
-            I'm Sebastian, a fullstack developer specializing in AI agents with
-            OpenAI and Node.js. I create solutions using the MERN stack,
-            focusing on Node.js and React, to develop and integrate AI assistants.
+          We build custom AI agents and automations that streamline your workflows, handle your customer support, and supercharge your growth — all without hiring more staff.
           </p>
         </div>
         <div>
-          <img src="/hero_setup.jpg" alt="Contraer" />
+          <img src="/Hero_image.png" alt="Contraer" />
         </div>
       </div>
     </div>

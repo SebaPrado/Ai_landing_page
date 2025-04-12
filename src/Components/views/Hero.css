@@ -226,3 +226,15 @@
       font-size: 12px; /* Reducido tamaño de fuente para pantallas pequeñas */
     }
   }
+
+  @media (min-width: 1920px) {
+
+    .heroContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .heroflex1 {
+      width: 1400px;
+    }
+   }

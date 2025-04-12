@@ -100,7 +100,7 @@ function FramerMotion() {
   }, []);
 
   return (
-    <div className="">
+    <div className="mainContainer">
         
       <section id="home">
         {Hero ? <Hero /> : <p>Error al cargar el componente Hero.</p>}
@@ -119,17 +119,17 @@ function FramerMotion() {
       </section>
 
        {/* ========================   technologies icons  slider      ===========================  */}
-       <section>
+       {/* <section>
         <Section_2 />
-      </section>
+      </section> */}
 
       {/* ========================   Fullstack developer    ===========================  */}
 
-      <section className="sectionDev ">
+      {/* <section className="sectionDev ">
         <div className="containerLarge">
          <Section_3_3_dev />
         </div>
-      </section>
+      </section> */}
 
       {/* ========================   Section 4_SLIDER      ===========================  */}
 
@@ -181,7 +181,7 @@ function FramerMotion() {
       <section>
         <footer className="footer ">
           <div className="footer-content">
-            <p>&copy; 2024 Sebastian Prado.</p>
+            <p>&copy; 2025 Agent Army AI agency</p>
             <div className="social-icons">
               <a
                 href="https://github.com/SebaPrado"

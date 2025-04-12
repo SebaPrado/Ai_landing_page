@@ -34,20 +34,29 @@ const Section_1 = () => {
           <img
             ref={animatedDivRef}
             className="profilePicture hidden"
-            src="/fotoperfil.png"
+            src="/about_us.png"
             alt=""
           />
         </div>
-        <div className="  scrollAnimation ">
-          <p className="helloText ">
-            Hey ! I'm Sebastian, a full stack developer specializing in{" "}
-            <strong>Open AI </strong>, <strong>Node.js </strong> and
-            <strong> React </strong>. I develop both <strong>Websites   </strong> and<strong> Agents AI </strong> for
-            businesses and individuals. I'm an enthusiast of working for
-            <strong> objectives</strong> instead of rate, joining goals and <strong>earning trust</strong> . 
-            Let's bring your vision to life!
+        <div className="scrollAnimation">
+          <p className="helloText">
+            We're a small, agile team with a big focus: helping businesses
+            unlock the power of AI and automation. With{" "} <strong>over 5 years of experience as a full stack freelance developer{" "}</strong>
+            .
           </p>
-          {/* <p className="letsTalk  ">Let's Talk...</p> */}
+          <p className="helloText">
+            We have successfully delivered custom tech solutions to{" "}
+            <strong> clients across the UK, Spain, the US, and Germany.</strong>{" "}
+            From building scalable web apps to streamlining backend systems, we
+            know how to turn complex problems into elegant, efficient code.
+          </p>
+          <p className="helloText">
+            We bring <strong> hands-on experience in AI </strong>, adding a
+            strategic layer to our work — from designing intelligent workflows
+            to building agents that actually understand and act. We blend deep
+            technical know-how with a lean, collaborative approach to bring you
+            automations and AI agents that actually move the needle.
+          </p>
         </div>
 
         {/* <div>

@@ -118,7 +118,7 @@ function FramerMotion() {
  
 
   return (
-    <div>
+    <div className="">
       <section id="home">
         {Hero ? <Hero /> : <p>Error al cargar el componente Hero.</p>}
         {/* <div className="heroBigContainer">
@@ -205,7 +205,7 @@ function FramerMotion() {
               <span className="dot"></span> Your Back-end Developer
             </h4>
             <p>
-              I build backend infrastructures using{" "}
+              We build backend infrastructures using{" "}
               <span>
                 {" "}
                 <strong>Node.js</strong>

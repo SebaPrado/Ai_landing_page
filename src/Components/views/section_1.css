@@ -1,6 +1,6 @@
 .helloText {
   font-size: 18px !important;
-  line-height: 50px !important;
+  line-height: 30px !important;
   /* letter-spacing: 1px; */
   color: #002425;
   margin-top: 50px;
@@ -16,6 +16,17 @@
   justify-content: center;
 }
 
+.Section1Home1 {
+  
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
 .textPersonalSection {
   width: 80%;
   text-align: center;
@@ -25,9 +36,9 @@
 .profilePicture {
   margin-top: 1rem;
   margin-bottom: 3rem;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  
+  
+  border-radius: 10%;
   background-color: rgba(255, 255, 255);
   opacity: 0.9;
 }

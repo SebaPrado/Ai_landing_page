@@ -129,7 +129,7 @@ h5 {
 
 /* ======    Márgenes laterales responsivos   ====== */
 
-@media screen and (min-width: 768px) and (max-width: 1940px) {
+@media screen and (min-width: 768px) and (max-width: 2500px) {
 
   .containerLarge {
     margin-left: 56px;
@@ -1340,6 +1340,10 @@ header {
 @media (max-width: 480px) {
   .textPersonalSection {
     width: 85%; /* Ancho para mobile */
+    background-color: red;
+    img { 
+      width: 100%;
+    }
   }
 }
 

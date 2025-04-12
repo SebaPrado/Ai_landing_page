@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import resumePDF from "../../CV_Sebastian_Prado.pdf"
+
 
 
 const theme = createTheme({
@@ -36,9 +36,7 @@ function Navbar() {
     setDrawerOpen(open);
   };
 
-  const handleResumeClick = () => {
-    window.open(resumePDF, "_blank");
-  };
+
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -49,9 +47,8 @@ function Navbar() {
 
   const menuItems = [
     { label: "Home", onClick: () => scrollToSection("home") },
-    { label: "AI", onClick: () => scrollToSection("ai") },
-    { label: "Projects", onClick: () => scrollToSection("projects") },
-    { label: "Resume", onClick: handleResumeClick },
+    { label: "AI Services", onClick: () => scrollToSection("ai") },
+    { label: "Projects", onClick: () => scrollToSection("projects") }
   ];
 
   return (
@@ -74,7 +71,7 @@ function Navbar() {
                     mt: 1,
                     display: { xs: "block", sm: "none", md: "none" },
                     color: "var(--white)", // hamburguesa
-                    backgroundColor: "var(--color1)", // fondo btn hamburguesa
+                    backgroundColor: "black", // fondo btn hamburguesa
                     borderRadius: "30%",
                     padding: "10px 9px 4px 9px",
                     "&:hover": {
@@ -110,7 +107,7 @@ function Navbar() {
               "& .MuiDrawer-paper": {
                 width: "100%",
                 maxHeight: "100%",
-                backgroundColor: "var(--color1)",
+                backgroundColor: "black",
               },
             }}
           >

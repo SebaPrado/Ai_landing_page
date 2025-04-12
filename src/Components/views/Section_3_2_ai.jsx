@@ -14,7 +14,7 @@ const Section_3_2_ai = () => {
 
   return (
     <div className="expertiseFlexContainer_ai" id="ai">
-      <div className=" aiHeader">
+      <div className="aiHeader">
         <div className="titles">
           <div> AI</div>
           <div> Integration & Development</div>
@@ -54,7 +54,7 @@ const Section_3_2_ai = () => {
           <div className="content_sub_container">
             <ul>
               <li>
-                I create a custom Node.js API that interfaces with OpenAI's
+                We create a custom Node.js API that interfaces with OpenAI's
                 platform for AI assistants management
               </li>
               <li>
@@ -63,8 +63,8 @@ const Section_3_2_ai = () => {
                 States.
               </li>
               <li>
-                I connect Open AI, Databases, Google sheets, Calendly,
-                Whatsapp/Instagram API, etc .
+                We connect your customer Agent to Open AI, Databases, Google
+                sheets, Calendly, Whatsapp/Instagram API, etc .
               </li>
             </ul>
           </div>
@@ -103,17 +103,19 @@ const Section_3_2_ai = () => {
         >
           <div className="content_sub_container">
             <ul>
-                <li>
-                I developed a JavaScript widget using Webpack to bundle it, allowing it to be embedded in any webpage via a script integration. This widget serves as the frontend of the AI assistant and communicates with my Node.js backend.
-                </li>
-                <li>
-                The backend is responsible for processing the assistant's requests, interacting with the OpenAI API to generate responses and with Supabase to manage the database.
-                </li>
-            
               <li>
-                A 24/7 automated sales and support Agent into any website
+                We have developed a JavaScript widget using Webpack to bundle it,
+                allowing it to be embedded in any webpage via a script
+                integration. This widget serves the frontend of the AI
+                assistant and communicates with your custom AI agent.
               </li>
-            
+              <li>
+                The backend is responsible for processing the assistant's
+                requests, interacting with the OpenAI API to generate responses
+                and with Supabase to manage the database.
+              </li>
+
+              <li>A 24/7 automated Agent into any website</li>
             </ul>
           </div>
         </div>
@@ -156,10 +158,6 @@ const Section_3_2_ai = () => {
               <li>
                 Development of static and dinamic context base for the
                 assistant's training
-              </li>
-              <li>
-                {" "}
-                In progress: Evaluation-Validation, Hyperparameter Tuning.
               </li>
             </ul>
           </div>
@@ -240,15 +238,14 @@ const Section_3_2_ai = () => {
           <div className="content_sub_container">
             <ul>
               <li>
-                I give the AI agent freedom of action and the necessary
+                We give the AI agent freedom of action and the necessary
                 programming tools to act autonomously and execute functions of
                 significant scope.
               </li>
               <li>
-                Therefore I create AI agents capable of executing code . Through
+                Therefore we create AI agents capable of executing code . Through
                 function calling, the agent determine whether to execute any
-                call or function , prior asking the client for information
-                needed to excecute the code (if needed).
+                call or function.
               </li>
               <li>
                 Context-aware decision-making systems for automated operations.
