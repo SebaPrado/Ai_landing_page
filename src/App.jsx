@@ -7,6 +7,7 @@ import Home from "./Components/views/Home";
 import Home0 from "./Components/views/Home0";
 import FramerMotion from "./Components/views/FramerMotion";
 import FramerMotion2 from "./Components/views/FramerMotion2";
+// import React from "react";
 
 import { useState } from "react";
 
@@ -27,11 +28,6 @@ const router = createBrowserRouter([
       {
         path: "home0",
         element: <Home0 />,
-      },
-
-      {
-        path: "fm",
-        element: <FramerMotion />,
       },
       {
         path: "fm2",

@@ -11,15 +11,11 @@
   );
   background-size: cover;
   background-position: center;
-  /* transform: rotate(-3deg); */
   height: 100vh;
   margin-top: 39px;
-  /* width: 94%; */
-  /* margin-left: 55px; */
   border-radius: 20% 20px;
   margin-bottom: 3rem;
   padding-top: 3.8rem;
-  /* background-image: url("/ai1.jpg"); */
 }
 
 .hero::before {
@@ -41,19 +37,17 @@
 
 .presentacion {
   padding-left: 4rem;
-  /* padding-right: -8rem; */
   margin-bottom: 3rem !important;
-  /* background-color:  greenyellow; */
 }
-.mi_nombre {
-  font-size: 3rem;
+/* .mi_nombre {
+  font-size: 2rem;
   color: var(--white);
   font-weight: 400;
   letter-spacing: 0.2rem;
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
+} */
 .letters_s {
   /* transform: rotate(3deg); */
   margin-left: 2.5rem;
@@ -192,7 +186,6 @@
 .heroflex1 p {
     color: white;
     font-size: 15px !important;
-    /* background-color: #030783; */
   }
 
   .heroFlexText{

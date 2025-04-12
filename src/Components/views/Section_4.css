@@ -10,7 +10,7 @@ h3 {
   font-weight: 300 !important;
 }
 #projects {
-  margin-top: 12vw;
+  /* margin-top: 12vw; */
   /* background-color: #0a001b; */
   width: 98vw;
   overflow: hidden;

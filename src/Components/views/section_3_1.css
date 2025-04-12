@@ -18,7 +18,7 @@
 }
 /*ai section  */
 .bkc2 {
-  background-image: url("/ai1.jpg");
+  background-image: url("/ai4.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -193,7 +193,7 @@ color:#ffffff;
 }
 .cursor-pointer {
   cursor: pointer;
-  z-index: 10;
+  z-index: 0;
 }
 
 /*   -----------------------------      Responsividad        -------------------------------- */
@@ -329,7 +329,7 @@ color:#ffffff;
   border-radius: 1px 30px;
 }
 .ai1::before {
-  background-image: url("/ai1.jpg");
+  background-image: url("/ai2.jpg");
 }
 
 .ai4::before {

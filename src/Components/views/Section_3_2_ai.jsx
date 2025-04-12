@@ -28,7 +28,7 @@ const Section_3_2_ai = () => {
           onClick={() => toggleSection("customAI")}
         >
           <div className="uno">
-            <h4> AI Agents Developer</h4>
+            <h4> AI Agents Development</h4>
           </div>
           <div className="dos">
             {expandedSections.customAI ? (
@@ -153,11 +153,14 @@ const Section_3_2_ai = () => {
         >
           <div className="content_sub_container">
             <ul>
-              <li>Prompt engineering for specialized business use cases</li>
+              <li>
+                We specialize in prompt engineering for specialized business use
+                cases
+              </li>
               <li>Implementation of fine-tuning strategies.</li>
               <li>
-                Development of static and dinamic context base for the
-                assistant's training
+                We develop static and dynamic context bases for assistant
+                training
               </li>
             </ul>
           </div>
@@ -165,10 +168,10 @@ const Section_3_2_ai = () => {
       </div>
 
       {/* ---------------------     4  Social Media     ------------------------- */}
-      {/* <div className="expertiseFlexItems_ai">
+      <div className="expertiseFlexItems_ai">
         <div
-          className="h4_boton bkc2_subtitle rotacion list_title_div cursor-pointer"
-          onClick={() => toggleSection("socialIntegration")}
+          className="h4_boton bkc2_subtitle rotacion list_title_div cursor-pointer bckimg ai1"
+          onClick={() => toggleSection("aiTraining")}
         >
           <div className="uno">
             <h4>Social Platform APIs Integration</h4>
@@ -198,12 +201,16 @@ const Section_3_2_ai = () => {
             <ul>
               <li>
                 Integration of AI assistants across major social media platforms
+                (Whatsapp , Instagram , Telegram, Facebook )
               </li>
-              <li>Development of META-connected agents.</li>
+              <li>
+                Development of META-connected agents, straigth to your contacts
+                list
+              </li>
             </ul>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* ---------------------     5  Open AI Function calling    ------------------------- */}
       <div className="expertiseFlexItems_ai">
@@ -212,7 +219,7 @@ const Section_3_2_ai = () => {
           onClick={() => toggleSection("autonomousAI")}
         >
           <div className="uno">
-            <h4> Open AI Function calling </h4>
+            <h4> Agents Function calling </h4>
           </div>
           <div className="dos">
             {expandedSections.autonomousAI ? (
@@ -248,7 +255,8 @@ const Section_3_2_ai = () => {
                 call or function.
               </li>
               <li>
-                Context-aware decision-making systems for automated operations.
+                We implement context-aware decision-making systems for automated
+                operations
               </li>
             </ul>
           </div>
@@ -287,18 +295,19 @@ const Section_3_2_ai = () => {
           <div className="content_sub_container">
             <ul>
               <li>
-                Custom LangChain agents using the OpenAI API integration,
-                implementing memory chains for context retention +
+                We build custom LangChain agents using the OpenAI API
+                integration, implementing memory chains for context retention +
                 conversational abilities.
               </li>
               <li>
-                Built sequential chain architectures to break down tasks into
-                manageable steps (ConversationChain)
+                We design sequential chain architectures to break down tasks
+                into manageable steps (ConversationChain), giving much more
+                control for the agent and its owner
               </li>
               <li>
-                Created document retrieval systems using Vector stores and
-                embeddings, enabling processing of text datasets + Long term
-                conversation memory with ChatHistory or Upstash .
+                We create document retrieval systems using Vector stores and
+                embeddings, enabling processing of text datasets and long-term
+                conversation memory with ChatHistory or Upstash
               </li>
             </ul>
           </div>
