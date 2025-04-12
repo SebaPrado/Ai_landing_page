@@ -1339,8 +1339,8 @@ header {
 
 @media (max-width: 480px) {
   .textPersonalSection {
-    width: 85%; /* Ancho para mobile */
-    background-color: red;
+   
+    
     img { 
       width: 100%;
     }
