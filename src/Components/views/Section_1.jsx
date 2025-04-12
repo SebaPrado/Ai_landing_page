@@ -33,7 +33,6 @@ const Section_1 = () => {
         <div className="images_div">
           <img
             ref={animatedDivRef}
-<<<<<<< HEAD
             className="profilePicture hidden"
             src="/about_us.png"
             alt=""
@@ -58,28 +57,6 @@ const Section_1 = () => {
             technical know-how with a lean, collaborative approach to bring you
             automations and AI agents that actually move the needle.
           </p>
-=======
-            className="profilePicture"
-            src="/daro2.png"
-            alt=""
-          />
-           <img
-            ref={animatedDivRef}
-            className="profilePicture "
-            src="/fotoperfil.png"
-            alt=""
-          />
-        </div>
-        <div className="  scrollAnimation ">
-          <p className="helloText ">
-          We're a development duo specializing in building{" "}
-            <strong>AI agents </strong>conected to whatsapp, Instagram, websites and <strong>Softwares </strong> built with <strong> Node.js </strong>. We develop both <strong>Softwares   </strong> and<strong> Agents AI </strong> for
-            businesses and individuals. We're enthusiasts of working toward 
-            <strong> objectives</strong> instead of hourly rates, joining goals and earning trust <strong> through results </strong> . 
-            Let's bring your idea to life!
-          </p>
-          {/* <p className="letsTalk  ">Let's Talk button...</p> */}
->>>>>>> 7628dd3e05ba996c9459f24b4c51e66441d77a6a
         </div>
 
         <div>
